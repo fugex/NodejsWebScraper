@@ -1,0 +1,74 @@
+[
+  {
+    "group": "Glasba",
+    "subgroup": [
+      "https://www.eventim.si/si/glasba/rock_pop/",
+      "https://www.eventim.si/si/glasba/narodnozabavna_glasba/",
+      "https://www.eventim.si/si/music/classical/",
+      "https://www.eventim.si/si/glasba/blues_country_folk/",
+      "https://www.eventim.si/si/glasba/jazz/",
+      "https://www.eventim.si/si/glasba/hard_heavy/",
+      "https://www.eventim.si/si/glasba/festival/",
+      "https://www.eventim.si/si/glasba/punk/",
+      "https://www.eventim.si/si/glasba/hiphop/",
+      "https://www.eventim.si/si/glasba/metal/",
+      "https://www.eventim.si/si/glasba/gospel/",
+      "https://www.eventim.si/si/glasba/soul/",
+      "https://www.eventim.si/si/glasba/reggae/"
+    ]
+  },
+  {
+    "group": "Kultura",
+    "subgroup": [
+      "https://www.eventim.si/si/kultura/opera_opereta/",
+      "https://www.eventim.si/si/kultura/gledalisce/",
+      "https://www.eventim.si/si/kultura/muzikal/",
+      "https://www.eventim.si/si/kultura/kabaret_komedija/",
+      "https://www.eventim.si/si/kultura/balet_ples/",
+      "https://www.eventim.si/si/kultura/revija_plesni_dogodek/",
+      "https://www.eventim.si/si/kultura/predavanje/",
+      "https://www.eventim.si/si/kultura/letno_gledalisce/",
+      "https://www.eventim.si/si/kultura/peozija_sanson/",
+      "https://www.eventim.si/si/kultura/variete/",
+      "https://www.eventim.si/si/kultura/literarni_vecer/",
+      "https://www.eventim.si/si/kultura/prireditev/"
+    ]
+  },
+  {
+    "group": "Šport",
+    "subgroup": [
+      "https://www.eventim.si/si/sport/nogomet/",
+      "https://www.eventim.si/si/sport/drugo_prireditev/",
+      "https://www.eventim.si/si/sport/tenis/"
+    ]
+  },
+  {
+    "group": "Družina",
+    "subgroup": [
+      "https://www.eventim.si/si/druzina/cirkus/",
+      "https://www.eventim.si/si/druzina/otroci/"
+    ]
+  },
+  {
+    "group": "Dodatno",
+    "subgroup": [
+      "https://www.eventim.si/si/drugo/elektronika/",
+      "https://www.eventim.si/si/ostalo/razstava/",
+      "https://www.eventim.si/si/drugo/elektronika/",
+      "https://www.eventim.si/si/drugo/film_kino/",
+      "https://www.eventim.si/si/drugo/plesna_predstava/",
+      "https://www.eventim.si/si/drugo/zabava_razno/",
+      "https://www.eventim.si/si/drugo/sejem/",
+      "https://www.eventim.si/si/drugo/avtobusni_prevozi/",
+      "https://www.eventim.si/si/ostalo/zabava_praznovanje/",
+      "https://www.eventim.si/si/drugo/darilni_bon/",
+      "https://www.eventim.si/si/drugo/gala/",
+      "https://www.eventim.si/si/drugo/a_cappella_glasba/",
+      "https://www.eventim.si/si/kultura/ostalo/",
+      "https://www.eventim.si/si/drugo/komedija/",
+      "https://www.eventim.si/si/drugo/swing/",
+      "https://www.eventim.si/si/ostalo/Turizem_in_prosti_cas/"
+    ]
+  }
+  
+]
