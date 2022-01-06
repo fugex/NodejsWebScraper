@@ -4,11 +4,14 @@ const axios = require('axios');
 const json = require('./endpoints.json');
 
 const exec = async () => {
+  let timer = 0;
+  console.log(`[                    ] 0%`);
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   const listOfEvents = [];
 
   for (let item of json) {
+    timer += 2;
     let group = item.group;
     let subgroups = [];
     for (let endpoint of item.subgroup) {
@@ -24,7 +27,7 @@ const exec = async () => {
 
       //Lazy loaded events
       if (moreEvents) {
-        await page.waitFor(1000);
+        await page.waitForTimeout(1000);
         await page.click('a.a-pagination_loadMoreTrigger');
         await page.waitForFunction(
           () => document.querySelectorAll('.o-eventList').length > 1
@@ -87,6 +90,9 @@ const exec = async () => {
       });
       subgroups.push(subgroupedEvents);
     }
+    let status = new Array(timer*2 +1).join('#') + new Array((20-timer*2)+1).join(' ');
+    console.clear();
+    console.log(`[${status}] ${timer}0%`);
     listOfEvents.push({
       group,
       subGroups: subgroups,
